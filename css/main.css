@@ -1,0 +1,87 @@
+body{
+	font-family: Montserrat;
+	margin: 0 auto;
+  	font-size: 16px;
+  	line-height: 1.71429;
+  	background-color: white;
+}
+.flex-container{
+	display: flex;
+}
+.link{
+ 	padding: 20px;
+ 	margin-left: auto;
+ 	justify-content: flex-end; /*Se supone que corre el contenido a la izq pero no me funcionó*/
+ 	padding-left: 560px; /*Para correrlo a la izq tuve que hacerlo con padding :(*/
+}
+.link a{
+	padding: 20px;
+}
+.logo-container{
+	padding: 20px;
+	padding-left: 100px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+nav{
+	position: fixed;
+}
+
+/*Fondo*/
+.fondo{
+	width: 100%;
+}
+
+.cuadro{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	background-color: #EDE9E2;
+	right: 0px;
+	top: 30px;
+	margin-top: 50px;
+}
+.contenido{
+	margin: 50px 30px 50px 30px;
+}
+.azul{
+	color: #352384;
+}
+
+
+/*Input del cuadro*/
+#input{
+	background-color: #EDE9E2;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 2px solid #75726C;
+	width: 90%;
+	height: 50px;
+	color: #75726C;
+}
+#input:focus{
+	outline: 0px;
+}
+.boton{
+	color: white;
+	text-transform: uppercase;
+	width: 200px;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #E54E79;
+	border-radius: 12px;
+	border-right-style: none;
+	border-bottom-style: solid;
+	cursor: pointer;
+	outline: 0px;
+}
+.fa-heart{
+	color:white;
+	font-size: 18px;
+}
+.textoabajo{
+	font-size: 14px;
+}
